@@ -7,7 +7,7 @@ def adivinar_numero():
         try:
             intento = int(input("Ingresa tu intento: "))
             if intento < 1 or intento > 10:
-                print("Por favor, ingresa un número entre 1 y 100.")
+                print("Por favor, ingresa un número entre 1 y 10.")
                 continue
             if intento < numero_secreto:
                 print("El número es mayor. Intenta de nuevo.")
